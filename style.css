@@ -1,0 +1,86 @@
+/* Color general del body */
+Body {
+    background: #9096e6;
+}
+
+/*Estilo de todos los títulos*/
+.titulo {
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    margin: 35px auto;
+    font-size: 20px;
+    border: 5px solid white; 
+    background: #8f73ed;
+    width: 500px;
+}
+
+/*Estilo de carátula (foto)*/
+.foto {
+    border: 2px solid white; 
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+.foto img {
+    width: 800px;
+}
+
+/*Estilo de carátula (tabla)*/
+.tabla, th, td {
+    border: 1px solid white; 
+    border-collapse: collapse;
+    padding: 20px;
+    margin: 30px auto; 
+    background: #8f73ed;
+}
+
+th {
+    font: bold 35px sans-serif;
+    color: white; 
+}
+
+td {
+    font: lighter 30px sans-serif;
+    color: white; 
+}
+
+/*Estilo de los botones "siguiente" y "anterior" */
+ .boton li {
+    text-decoration: none;
+    background: #dac5f7;
+    border: 2px solid white;
+    padding: 9px;
+    list-style: none;
+    font: bold 20px sans-serif;
+    width: 100px;
+    display: inline;
+    margin: 0px 5px;
+}
+
+/*Estilo de la descripción (foto y texto-párrafo)*/
+.danna img {
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    margin: 25px 785px;
+}
+
+.texto {
+    background: #8f73ed;
+    width: 1200px;
+    font: lighter 30px sans-serif;
+    color: white; 
+    padding: 20px; 
+    margin: 50px auto;
+    border: 5px solid white; 
+}
+
+/*Estilo de las fotos de la galería*/
+.pictures img{
+    width: 1000px;
+    height: 500px;
+    margin: 50px 550px;
+}
+
